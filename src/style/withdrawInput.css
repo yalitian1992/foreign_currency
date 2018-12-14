@@ -1,0 +1,220 @@
+.withdraw-top{
+  padding:.6rem .54rem 0;
+  border-bottom:.3rem solid #eee;
+}
+.withdraw-top > p{
+  font-size: .48rem;
+  color: #666666;
+}
+.withdraw-line{
+  width: 9rem;
+  height: 2rem;
+  line-height: 2rem;
+  border-bottom:1px solid rgba(142, 121, 192, 0.4);
+}
+.withdraw-line > label{
+  font-size:1.2rem;
+}
+.withdraw-line > input{
+  display: inline-block;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  width:7.8rem;
+}
+.withdraw-line > input::-webkit-input-placeholder{
+  font-size:.48rem;
+  line-height: 1.5rem;
+}
+.withdraw-line > label,.withdraw-line > input{
+  vertical-align: middle;
+}
+.withdraw-top-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size:.42rem;
+  height:1.68rem;
+  line-height: 1.68rem;
+}
+.withdraw-top-bottom p{
+  display: inline-block;
+}
+.withdraw-top-color{
+  color: #8e79c0;
+}
+.withdraw-top-bottom > p{
+  padding-right:.6rem;
+  background:url("../assets/images/icon-mark.png") no-repeat right center/.45rem .45rem;
+}
+/*表单框*/
+.withdraw-center{
+  margin-bottom:1.6rem;
+}
+.withdraw-center-top{
+  height: 1.65rem;
+  border-bottom:1px solid #ccc;
+  padding:0 .54rem;
+}
+.withdraw-center-top label{
+  font-size:.48rem;
+  color:#666;
+}
+.withdraw-center-top select{
+  width:2rem;
+  background:#fff url("../assets/images/icon-down.png") no-repeat right center/.4rem .23rem;
+}
+.withdraw-bankInfo{
+  padding:.6rem .54rem 0;
+}
+.withdraw-bankInfo p{
+  height: .9rem;
+  line-height: .9rem;
+  margin-bottom:.4rem;
+}
+.withdraw-bankInfo label{
+  vertical-align: middle;
+  font-size:.45rem;
+  color: #666;
+  min-width:1.9rem;
+  display: inline-block;
+  text-align: left;
+}
+.withdraw-bankInfo input,.withdraw-bankInfo select{
+  display: inline-block;
+  width:8.84rem;
+  height:.9rem;
+  line-height: .9rem;
+  font-size:.45rem;
+  vertical-align: middle;
+  padding:0 .6rem;
+  border:1px solid #d2c9e6;
+  border-radius: .12rem;
+  box-sizing: border-box;
+  background: #fff;
+  -webkit-appearance: none
+}
+.withdraw-bankInfo select{
+  background:#fff url("../assets/images/icon-down.png") no-repeat 8rem center/.4rem .23rem;
+}
+.withdraw-bankInfo input:focus {
+  border-color: #8e79c0;
+}
+.withdraw-remark > label{
+  vertical-align: top;
+}
+.withdraw-bankInfo textarea{
+  width: 8.86rem;
+  height: 2.07rem;
+  border-radius: .12rem;
+  border: solid 1px #d2c9e6;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding:.23rem .6rem;
+  font-size:.45rem;
+  resize: none;
+}
+.withdraw-bankInfo textarea:focus{
+  border-color: #8e79c0;
+}
+.withdraw-btn{
+  position: fixed;
+  bottom:0rem;
+  left:0rem;
+  right:0rem;
+  width: auto;
+  height: 1.32rem;
+  background: #fff;
+  box-sizing:content-box;
+  padding:0.3rem 0;
+}
+
+.withdraw-btn p{
+  height: 1.32rem;
+  line-height: 1.32rem;
+  background-color: #8e79c0;
+  border-radius: .12rem;
+  margin:0 .24rem;
+  color: #fff;
+  font-size:.54rem;
+  text-align: center;
+}
+.iphonexHeight .withdraw-btn{
+  bottom:.5rem;
+}
+
+/*确认信息*/
+.withdrawInfo-center{
+  margin-top:1.2rem;
+  padding:1rem .5rem;
+  border-top: 1px dashed #999;
+  border-bottom:1px dashed #999;
+}
+.withdrawInfo-center p {
+  display: flex;
+  justify-content: flex-start;
+  min-height:1.2rem;
+  font-size:.48rem;
+}
+.withdrawInfo-center p span{
+  display: inline-block;
+}
+.withdrawInfo-center p span:nth-child(1){
+  color: #666;
+  min-width:2rem;
+  margin-right:.6rem;
+}
+.withdrawInfo-red{
+  color: #f96565;
+}
+.withdrawInfo-numColor{
+  color: #8e79c0;
+}
+/*提示信息*/
+.withdrawSuccess-center{
+  margin:4rem auto 0;
+  text-align: center;
+}
+.withdrawSuccess-img{
+  width:1.92rem;
+  height:1.92rem;
+  margin:0 auto;
+}
+.withdrawSuccess-text1{
+  font-size: .6rem;
+  line-height: .9rem;
+  color: #8e79c0;
+  margin:.6rem auto .4rem;
+}
+.withdrawSuccess-text2{
+  font-size: .48rem;
+  line-height: .8rem;
+  color: #333;
+}
+.withdrawSuccess-text3{
+  margin-top:.8rem;
+  font-size: .48rem;
+  line-height: .8rem;
+  color: #333;
+}
+.withdrawSuccess-text3 span{
+  color: #8e79c0;
+}
+/*身份证正反面*/
+.uploadImg{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top:.5rem;
+}
+.uploadImg > p{
+  width:4.86rem;
+  height:3.15rem;
+  border-radius: 5px;
+  overflow: hidden;
+
+}
+.uploadImg > p >img{
+  width:100%;
+}
